@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mikhail, cv, resume, programming, it">
+    <meta name="description" content="Это сайт - резюме Михаила Козицкого">
+    <link rel="stylesheet" href="style.css">
+    <title>My Resume</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="main_info">
+            <div class="main_info_left">
+                <img src="imgs/avatar.jpg" class="avatar" alt="Моё фото">
+            </div>
+            <div class="main_info_right">
+                <h1>Михаил Козицкий</h1>
+                <p>Я студент 4-го курса ДВФУ по направлению "Прикладная математика и информатика".</p>
+                <p>Я изучаю C#, C++ и frontend-разработку. Также люблю заниматься спортом и играть на гитаре.</p>    
+                <h3>Список социальных сетей:</h3>
+                <a href="http://t.me/kekouke" target="_blank">Telegram</a> |
+                <a href="http://vk.com/kekouke" target="_blank">VK</a> |
+                <a href="http://instagram.com/mikhailkozitsky" target="_blank">Instagram</a>
+            </div>
+        </div>
+        
+        <div class="main_section">
+            <div class="card">
+                <h2 class="card_title">Мои хобби:</h2>
+                <div class="card_inner">
+                    <ol>
+                        <li>Программирование</li>
+                        <li>Компьютерные игры</li>
+                        <li>Тренажерный зал</li>
+                    </ol>
+                </div>
+            </div>
+        
+            <div class="card">
+                <h2 class="card_title">Опыт работы</h2>
+                <div class="card_inner">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Название</th>
+                                <th>Должность</th>
+                                <th>Год</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FEFU</td>
+                                <td>Студент</td>
+                                <td>2019-2023</td>
+                            </tr>
+                            <tr>
+                                <td>Game Forest</td>
+                                <td>Практикант C#</td>
+                                <td>2021-2022</td>
+                            </tr>
+                            <tr>
+                                <td>FR13NDS Studio</td>
+                                <td>C# разработчик</td>
+                                <td>2023-сейчас</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 class="card_title">Связаться со мной</h2>
+                <div class="card_inner">
+                    <form action="/">
+                        <div class="name_email_block">
+                            <div class="input">
+                                <label for="name">Ваше имя:</label>
+                                <input type="text" id="name" placeholder="Введите имя">
+                            </div>
+                            <div class="input">
+                                <label for="email">Ваш email:</label>
+                                <input type="email" id="email" placeholder="Введите email">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message">Ваше сообщение:</label><br>
+                            <textarea id="message" placeholder="Введите сообщение..."></textarea>
+                            <div>
+                                <button type="submit" class="btn">Отправить!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>              
+            </div>
+        </div>
+    </div>
+</body>
+</html>
